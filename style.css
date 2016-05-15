@@ -1,99 +1,74 @@
 * {
-  /*border:1px solid black; */
-  font-family:sans-serif;
+  font-family: sans-serif;
+}
+
+html{
+  background-color: #666666;
 }
 
 body {
-  margin:10px 10px 10px 10px;
-  padding:0;
-  background-color: white;
-  border-radius: 10px;
-}
-
-.mainheading {
-  background-color: gray;
+  width:80%;
+  border-radius:5px;
+  margin: 20px 0px 20px 20px;
+  padding: 20px 0px 20px 20px;
+  background-color: #CCCCCC;
 }
 
 h1 {
-  text-align: left;;
   width:80%;
-  color:green;
-  font-family:sans-serif;
-  padding-bottom: 20px;
-  border-bottom: 2px solid gray;
+  border-radius:5px;
+  padding:20px;
+  text-align: left;
+  background-color: #CCCCCC;
+  color:#FF33AA;
+  font-family:Verdana;
+  line-height: 1.4em;
+  text-transform: lowercase;
+  letter-spacing:0.1em;
+  word-spacing:0.5em;
 }
 
 h2 {
-  color:blue;
-  text-align: left:center;
-  padding-left:10px;
+  width:90%;
+  padding:20px;
+  border-bottom: 2px solid #FF33AA;
+  text-align: left;
+  color:#555555;
+  font-family:Arial;
+  letter-spacing:0.1em;
+  text-transform: uppercase;
+  display:none;
+}
+
+h2:first-letter {
+  color:green;
+  font-size:150%;
 }
 
 .content {
-  width:70%;
-  height:300px;
-  /*height:200px; */
-  /*display: block;*/
-  display:flex;
+  width:90%;
+  border-radius: 5px;
+  padding:5px;
+  left:20px;
+  position:relative;
+  background-color: white;
+  font-family:Arial;
+  display:none;
 }
 
 img {
-    display: block;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 ul {
-  width:50%;
-  position:absolute;
+  padding: 20px;
+  left:20px;
+  text-align: left;
+  position: relative;
+  font-family:Arial;
 }
 
-#pet #hometown #food #favplace #movie{
-  display: inline;
-  width: 50%;
-  height:inherit;
+li {
+  padding:3px;
 }
-
-.listdetail {
-  display: inline;
-  width: 50%;
-}
-
-#list1 {
-  color:white;
-}
-
-#list2 {
-  color:white;
-}
-
-#list3 {
-  color:white;
-}
-
-#list4 {
-  color:white;
-}
-
-#list5 {
-  color:white;
-}
-
-
-
-
-
-/*
-h2 {
-  color:blue;
-  font-family:sans-serif;
-}
-
-.pictures {
-    width:50%;
-    height:200px;
-    display: inline-block;
-}
-
-img {
-  width:100%;
-  display: block;
-} */
